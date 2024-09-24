@@ -1,0 +1,32 @@
+.phone{
+    &_title{
+        width: 100%;
+        height: 53px;
+        background-color: $titleColor;
+        margin-top: 38px;
+        &_text{
+            font-size: 30px;
+            padding-top: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $textnavColor;
+            font-family: "Jost", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 300;
+        }
+
+    }
+    &_text{
+        margin-top: 40px;
+        margin-left: 98px;
+        row-gap: 28px;
+        &_txt{
+            font-size: 30px;
+            color: $textnavColor;
+            font-family: "Jost", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 300; 
+        }
+    }
+}

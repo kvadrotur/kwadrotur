@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 77px;
+    background-color: $navColor;
+    &_img{
+        width: 111px;
+        height:80px ;
+        padding-left: 11px;
+    }
+    &_logo{
+        font-family: "Jost", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #FF0000;
+        padding-left: 30px;
+    }
+    &_nav{
+        padding-left: 57.04px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 21px;
+        &_text{
+
+            font-family: "Jost", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            color: $textnavColor;
+          
+            
+        }
+    }
+    &_contact{
+        &_text{
+            
+            font-family: "Jost", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            color: $textnavColor;  
+            padding-left: 140px;
+        }
+    }
+}

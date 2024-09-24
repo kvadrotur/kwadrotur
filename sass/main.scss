@@ -1,0 +1,13 @@
+body{
+    background-image: url(../img/gora.JPG);
+ background-repeat: no-repeat;
+ background-size: 100% ;
+ background-attachment: fixed;
+}
+@import './base/reset';
+@import './base/color';
+@import 'layout/header';
+@import './layout/logo';
+@import './layout/marshrut';
+@import './layout/phone';
+@import './layout/location';

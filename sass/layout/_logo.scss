@@ -1,0 +1,27 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_img{
+       padding-top: 60px;
+       padding-left: 69px;
+    }
+    &_text{
+        padding-left: 59px;
+        
+        &_txt{
+            font-family: "Jost", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-size: 40px;
+            width: 294px;
+            height:242px;
+
+        }
+        
+    }
+}
+
+.lon{
+    padding-top: 73px;
+}
